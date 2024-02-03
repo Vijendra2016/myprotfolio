@@ -31,12 +31,12 @@ export default function Home({ setting }) {
           Lihat
           <Link href={"/portfolio"}>
             <a>
-              <span className="font-semibold underline"> Portfolio Saya</span>
+              <span className="font-semibold underline"> Portfolio </span>
             </a>
           </Link>{" "}
           dan juga{" "}
           <a href={setting.cv_link} target={"_blank"} rel="noreferrer">
-            <span className="font-semibold underline">Unduh CV Saya</span>
+            <span className="font-semibold underline">My CV</span>
           </a>
         </p>
       </div>
